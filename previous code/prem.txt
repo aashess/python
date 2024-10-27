@@ -1,0 +1,118 @@
+web development 
+    Html                    // 
+    Javascript              //button working 
+    CSS                     //design 
+        TypeScript              //javascript framework  
+        PHP                     //backend tohr website server se kena interact kartau... 
+            Database            
+                SQL         //website ke data kahu store ta kare partau... ta kena 
+                MangoDB         //store karbe se SQL se hetau. 
+
+
+Web 3.0 
+
+            COmplete Website bantau... 
+
+DSA 
+
+        Logic Build kare ke hau ta DSA 
+            lekin e se kuch nai bana sake xe... bass problem solve kar sake xi
+
+        Requirement: Programming Language any one
+    OS 
+
+    Databse 
+
+
+
+
+
+ Programing Language 
+        Python              e karbe ta bekar nai jetau... kahu na kahu kaam aaajetau. 
+                            like in DSA or while making project. 
+        Java            Software Development. 
+        C/C++   `       Foundation. 
+
+ DevOps:- 
+    Linux           Operating system. first you need to learn how to use any OS 
+                            Benefit e hau... that you have UNIX machine. Linux = Unix
+    
+    Networking      Basics of Networking. 
+    
+    Github              Place where you store your projects. and everyone can see it 
+                            or work on that. 
+
+                        Developer --------Customer. 
+                            made and app            customer will get that app 
+                                for Customer                from github. 
+                        Dev again made another          
+                        version of that app.            customer again will get that app
+                                                            from github. 
+                                You work in a team.                           
+    Docker              You have MAC machine. 
+                            and I have windows machine. 
+                            You work on same project. like me. 
+                            You deployed your project. and you send it to me. 
+
+                            but that project doesn't run on my machine. 
+
+                            then I will say that your code doesn't work. 
+
+                            But I works on my machine. 
+
+                        Because Mac supports other application. 
+                        But windows supports other application. 
+
+                        Thats way Docker came into the place. 
+                        Docker:- 
+                                In docker file, you already define the 
+                                Machine name, there os, there hardware infrastructure. 
+
+        Kubernates
+
+
+
+
+
+    AWS             this is a cloud storage platform. 
+                
+                In ancient time, all the companies have there own data centers. 
+                Benefits:-
+                        Data Security.
+                        User have more trust on you. 
+                        Data can be used according to you. 
+                Disadvantage:-
+                        If you have your own datacenters then you have to 
+                        keep expert for there maintatenance. 
+
+                        Datacenters usually takes more space. 
+
+                        Suppose you need only 1000 User space but as you know 
+                        in future you will need 1 million space then in advance 
+                        you need to buy all the infrastructure.
+
+                        Then it is not cose effective. 
+                        Expensive. 
+
+                AWS came into the market:- 
+                        AWS will only charge limited amount of bill that you 
+                        have been used. 
+
+                        Scaling became easy in aws. 
+
+                        You don't have to maintain. so you no need to keep 
+                        expert for there maintatenance. 
+
+                So for  this cloud developer and cloud engineer came into the 
+                place.  
+
+    CI/CD 
+                Continues Integration and Continues Deployment
+                        - Unit testing
+                        - Static Code analysis
+                        - COde quality / Vulnerability
+                        - Automation 
+                        - Reports 
+                        - Deployment 
+
+    Jenkins 

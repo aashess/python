@@ -1,0 +1,16 @@
+4 user
+1 leader
+
+all takes random numbers. 
+
+if 1 user number matches with leader 
+    then 
+    increase his points by 1 
+
+if 2 user number matches with leader
+    then 
+    then increase there point by 1 
+
+decide winner when 
+    user point get 3 points as total.
+    

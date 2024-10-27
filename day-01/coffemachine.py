@@ -1,0 +1,4 @@
+class aashish: (
+    print("hellow")
+)
+    
