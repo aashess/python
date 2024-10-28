@@ -97,6 +97,13 @@ for i in y:
     print(i)
 
 """
+#For Loop 
+"""
+dic = ["hello","om"]
+for index, i in enumerate(dic):
+    print(f"index {index}: {i}")
+"""
+
       
 #dicitionary
 """
@@ -284,7 +291,7 @@ Write a program to safely access the value of the "bio" key. If the key doesn’
 """
 
 #Answer 7
-
+"""
 user = {
     "username" : "tech_guru",
     "followers": 150
@@ -297,3 +304,132 @@ if bio:
     print(bio)
 else:
     print("Doesn't Exist.")
+"""
+
+#class and object.
+#in update perspective. 
+"""
+class car:                          #class is created
+    def __init__(self,brand,year):          #constructor which automatically intialized
+        self.brand = brand
+        self.year = year
+    
+    def display_info(self):             #self means object instance remember. 
+        print(f"This is a {self.brand} car from {self.year}")
+    
+    def update_info(self,newYear):
+        self.year = newYear
+
+car1 = car("toyota",2002)
+car2 = car("Mercedes",1959)
+
+car1.display_info()
+car2.display_info()
+
+car1.update_info(1999)
+car1.display_info()
+"""
+
+#Adding if-else condition in Class with object. 
+"""
+class car:                          #class is created
+    def __init__(self,brand,year):          #constructor which automatically intialized
+        self.brand = brand
+        self.year = year
+    
+    #def display_info(self):             #self means object instance remember. 
+     #   print(f"This is a {self.brand} car from {self.year}")
+    
+    def is_new(self):
+        if self.year >= 2000:
+            return True
+        else:
+            return False
+
+car1 = car("toyota",2002)
+car2 = car("Mercedes",1959)
+
+print(car1.is_new())
+print(car2.is_new())
+
+
+#car1.display_info()
+#car2.display_info()
+
+#car1.update_info(1999)
+#car1.display_info()
+"""
+
+#loop in class and object. 
+"""
+class car:
+    def __init__(self,brand,year):
+        self.brand = brand
+        self.year = year
+
+    
+    def car_disp(self):
+        print(f"This is {self.brand} from {self.year}")
+
+Cars = [
+    car("Toyota",2002),
+    car("Mercedes",1996)
+]
+
+for index in Cars:
+    print(index.car_disp())
+"""
+#Inheritance parent class attributes to child class
+"""
+class Car: 
+    def __init__(self,brand, color):
+        self.brand = brand
+        self.color = color
+        #self.battery = battery
+
+    def disp_info(self):
+        print(f"Car is of {self.brand} in {self.color} of {self.battery}% battery.")
+
+class electic_car(Car):
+    def __init__(self, brand, color, battery):
+        super().__init__(brand, color)
+        self.battery = battery
+    
+    def disp_battery(self):
+        print(f"and it have {self.battery}% battery.")
+
+p=electic_car("Toyoto","Yellow",100)
+
+p.disp_info()
+p.disp_battery()
+"""
+#Create a parent class Animal and a child class Dog.
+
+#	•	Animal class should have:
+#	•	An attribute name.
+#	•	A method speak() that prints: "I am an animal."
+#	•	Dog class should:
+#	•	Inherit from Animal.
+#	•	Override the speak() method to print: "Woof! I am a dog."
+
+class animal:
+    def __init__(self,name):
+        self.name=name
+
+    def speak(self):
+        print(f"I m an {self.name}.")
+
+class dog(animal):
+    def speak(self):
+        print(f"This is Dog {self.name}")
+    
+animal = animal("Leo")
+dog = dog("Sher")
+
+animal.speak()
+dog.speak()
+
+
+
+
+        
