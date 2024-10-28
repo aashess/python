@@ -403,6 +403,12 @@ p=electic_car("Toyoto","Yellow",100)
 p.disp_info()
 p.disp_battery()
 """
+#
+#
+#Question 1
+#
+#
+
 #Create a parent class Animal and a child class Dog.
 
 #	•	Animal class should have:
@@ -411,10 +417,12 @@ p.disp_battery()
 #	•	Dog class should:
 #	•	Inherit from Animal.
 #	•	Override the speak() method to print: "Woof! I am a dog."
-
+"""
 class animal:
     def __init__(self,name):
         self.name=name
+
+# self is important as it remembers instaces and there value.
 
     def speak(self):
         print(f"I m an {self.name}.")
@@ -428,8 +436,46 @@ dog = dog("Sher")
 
 animal.speak()
 dog.speak()
+"""
+#Quesiton 2
+"""
+Create a Vehicle class and a Bike class that inherits from it.
+
+	•	Vehicle class should have:
+	•	name and max_speed attributes.
+	•	A method display_info() to print the name and speed.
+	•	Bike class should:
+	•	Inherit from Vehicle.
+	•	Add an attribute gear_count and a method display_gears().
+#output
+    Vehicle: Bicycle, Max Speed: 25 km/h
+    Gear Count: 5
+
+"""
+
+class vehicle:
+    def __init__(self,name,max_speed):
+        self.name=name
+        self.max_speed = max_speed
+    
+    def display_info(self):
+        print(f"Vehicle: {self.name}, Max Speed: {self.max_speed}")
+
+class bike(vehicle):
+    def __init__(self,name,max_speed,gear_count):
+        super().__init__(name, max_speed)
+        self.gear_count = gear_count
+    
+    def display_gears(self):
+        print(f"Gear Count: {self.gear_count}")
+
+#object create 
+
+vehicle = vehicle("MT15", 130)
+bike = bike("Yamaha",145,6)
 
 
+vehicle.display_info()
+bike.display_info()
+bike.display_gears()
 
-
-        
